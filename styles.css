@@ -1,0 +1,111 @@
+/* Set maximum width and auto margin on left and right for centering */
+.container {
+  max-width: 1200px;
+  /* adjust as needed */
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+}
+
+/* Add more vertical spacing between sections */
+section {
+  padding: 100px 50px;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: teal;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: teal;
+  margin: 20px 0;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: teal;
+  margin: 20px 0;
+}
+
+hr {
+  border: 1px solid #FAF0E6;
+  width: 20%;
+  margin: 20px auto;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+  margin: 30px 0;
+}
+
+.hero {
+  position: relative;
+}
+
+/* Create a pseudo-element to serve as the overlay */
+.hero::after {
+  content: "";
+  /* This is necessary for the pseudo-element to work */
+  position: absolute;
+  /* This positions the pseudo-element relative to the hero section */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(206, 208, 191, 0.462);
+  /* Dark slate gray with 50% transparency */
+}
+
+/* Position the hero content relatively with a higher z-index to make it appear over the overlay */
+.hero-body {
+  position: relative;
+  z-index: 1;
+}
+
+.feat-icon {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 20px auto;
+  display: block;
+}
+
+.testimonial-text {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  color: #333;
+}
+
+.testimonial-author {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+
+/* Styling for the slick controls */
+.slick-prev:before,
+.slick-next:before {
+  color: #008080;
+}
+
+/* Add more horizontal spacing within sections */
+.columns {
+  margin-left: 20px;
+  /* adjust as needed */
+  margin-right: 20px;
+  /* adjust as needed */
+}
+
+/* Add more spacing in the footer */
+.footer {
+  padding: 50px 0;
+  /* adjust as needed */
+}

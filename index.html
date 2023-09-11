@@ -11,117 +11,7 @@
     <!-- Adding Slick CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-
-    <style>
-        /* Set maximum width and auto margin on left and right for centering */
-        .container {
-            max-width: 1200px;
-            /* adjust as needed */
-            margin-left: auto;
-            margin-right: auto;
-            margin:0 auto;
-        }
-    
-        /* Add more vertical spacing between sections */
-        section {
-            padding:100px 50px;
-        }
-
-        h1 { 
-            font-family: 'Merriweather', serif;
-            font-weight: 700;
-            font-size: 3rem;
-            color: teal;
-        }
-
-        h2 {
-            font-family: 'Merriweather', serif;
-            font-weight: 700;
-            font-size: 2rem;
-            color: teal;
-            margin: 20px 0;
-        }
-
-        h3 {
-            font-family: 'Merriweather', serif;
-            font-weight: 700;
-            font-size: 1.5rem;
-            color: teal;
-            margin: 20px 0;
-        }
-
-        hr {
-            border: 1px solid #FAF0E6;
-            width: 20%;
-            margin: 20px auto;
-        }
-        
-        p  {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 1.2rem;
-            color: #333;
-            margin: 30px 0;
-        }
-
-        .hero {
-            position: relative;
-        }
-
-        /* Create a pseudo-element to serve as the overlay */
-        .hero::after {
-            content: ""; /* This is necessary for the pseudo-element to work */
-            position: absolute; /* This positions the pseudo-element relative to the hero section */
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            background-color: rgba(206, 208, 191, 0.462); /* Dark slate gray with 50% transparency */
-        }
-
-        /* Position the hero content relatively with a higher z-index to make it appear over the overlay */
-        .hero-body {
-            position: relative;
-            z-index: 1;
-        }
-
-        .feat-icon {
-            width: 120px; 
-            height: 120px;
-            margin: 0 auto 20px auto;
-            display:block;
-        }
-
-        .testimonial-text {
-            font-family: 'Merriweather', serif;
-            font-style: italic;
-            color: #333;
-        }
-
-        .testimonial-author {
-            font-family: 'Open Sans', sans-serif;
-            color: #333;
-        }
-
-        /* Styling for the slick controls */
-        .slick-prev:before, .slick-next:before {
-            color: #008080;
-        }
-    
-        /* Add more horizontal spacing within sections */
-        .columns {
-            margin-left: 20px;
-            /* adjust as needed */
-            margin-right: 20px;
-            /* adjust as needed */
-        }
-    
-        /* Add more spacing in the footer */
-        .footer {
-            padding: 50px 0;
-            /* adjust as needed */
-        }
-    </style>
-
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body style="background-color:#FAF0E6">
@@ -161,11 +51,11 @@
                 <div class="container has-text-centered">
                     <br /><br /><hr />
                     <h1 class="title">
-                        AI Drafted Therapeutic Notes and Paperwork In An Instant
+                        Instant Therapeutic Notes and Paperwork Powered by AI
                     </h1>
                     <hr />
                     <h2 class="subtitle">
-                        Stop writing notes and start helping people.
+                        Less paperwork means more time for your clients.
                     </h2>
                     <hr />
                 </div>
@@ -400,7 +290,8 @@
                 </div>       
         </div>
         <p>
-            Copyright &copy; 2023 GAMP AI. All rights reserved.
+            Copyright &copy; 2023 GAMP AI. All rights reserved. | <a href="privacy"
+                class="has-text-primary">Privacy Policy</a> | <a href="terms" class="has-text-primary">Terms of Service</a>
         </p>
     </footer>
     
