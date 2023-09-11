@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NuIQ - Instant Therapeutic Notes, Forms and AI Client Coaching.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400i|Open+Sans&display=swap">
+    
+    <!-- Adding Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <style>
+        /* Set maximum width and auto margin on left and right for centering */
+        .container {
+            max-width: 1200px;
+            /* adjust as needed */
+            margin-left: auto;
+            margin-right: auto;
+            margin:0 auto;
+        }
+    
+        /* Add more vertical spacing between sections */
+        section {
+            padding:100px 50px;
+        }
+
+        h1 { 
+            font-family: 'Merriweather', serif;
+            font-weight: 700;
+            font-size: 3rem;
+            color: teal;
+        }
+
+        h2 {
+            font-family: 'Merriweather', serif;
+            font-weight: 700;
+            font-size: 2rem;
+            color: teal;
+            margin: 20px 0;
+        }
+
+        h3 {
+            font-family: 'Merriweather', serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: teal;
+            margin: 20px 0;
+        }
+
+        hr {
+            border: 1px solid #FAF0E6;
+            width: 20%;
+            margin: 20px auto;
+        }
+        
+        p  {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.2rem;
+            color: #333;
+            margin: 30px 0;
+        }
+
+        .hero {
+            position: relative;
+        }
+
+        /* Create a pseudo-element to serve as the overlay */
+        .hero::after {
+            content: ""; /* This is necessary for the pseudo-element to work */
+            position: absolute; /* This positions the pseudo-element relative to the hero section */
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(206, 208, 191, 0.462); /* Dark slate gray with 50% transparency */
+        }
+
+        /* Position the hero content relatively with a higher z-index to make it appear over the overlay */
+        .hero-body {
+            position: relative;
+            z-index: 1;
+        }
+
+        .feat-icon {
+            width: 120px; 
+            height: 120px;
+            margin: 0 auto 20px auto;
+            display:block;
+        }
+
+        .testimonial-text {
+            font-family: 'Merriweather', serif;
+            font-style: italic;
+            color: #333;
+        }
+
+        .testimonial-author {
+            font-family: 'Open Sans', sans-serif;
+            color: #333;
+        }
+
+        /* Styling for the slick controls */
+        .slick-prev:before, .slick-next:before {
+            color: #008080;
+        }
+    
+        /* Add more horizontal spacing within sections */
+        .columns {
+            margin-left: 20px;
+            /* adjust as needed */
+            margin-right: 20px;
+            /* adjust as needed */
+        }
+    
+        /* Add more spacing in the footer */
+        .footer {
+            padding: 50px 0;
+            /* adjust as needed */
+        }
+    </style>
+
+</head>
+
+<body style="background-color:#FAF0E6">
+    
+        <!-- Navigation bar -->
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <!-- Logo and burger menu -->
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#">
+                    <img src="your-logo.png">
+                </a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <!-- Navigation links -->
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item">
+                        Home
+                    </a>
+                    <a class="navbar-item">
+                        Home
+                    </a>
+                    <!-- More navigation items -->
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero"
+            style="background-image: url('img/nuiq_banner2.png'); background-size: 100% auto; background-repeat: no-repeat; background-position: center; min-height:500px">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <br /><br /><hr />
+                    <h1 class="title">
+                        AI Drafted Therapeutic Notes and Paperwork In An Instant
+                    </h1>
+                    <hr />
+                    <h2 class="subtitle">
+                        Stop writing notes and start helping people.
+                    </h2>
+                    <hr />
+                </div>
+            </div>
+        </section>
+    <div class="container">
+        <!-- Features Section -->
+        <section class="features" style="background-color: #FAF0E6;">
+            <div class="columns">
+                <!-- Feature 1 -->
+                <div class="column">
+                    <img src="img/notes.png" class="feat-icon">
+                    <h2 class="title is-4">Instant Session Notes</h2>
+                    <p>Draft your therapeutic session notes in an instant with Q Notes. Q Notes listens (or takes an audio recording) and produces complete high-quality notes in most common formats: SOAP, DAP, PAIP, *IRP, and more.</p>
+                    <a class="button is-primary is-rounded">Try It Out</a>
+                </div>
+                <!-- Feature 2 -->
+                <div class="column">
+                    <img src="img/forms.png" class="feat-icon">
+                    <h2 class="title is-4">Forms On AutoPilot</h2>
+                    <p>Tired of filling out the same form over and over? Q Forms uses AI to make filling repetive tedious forms a breeze. Never fill another form by hand.</p>
+                    <!-- Demo Button -->
+                    <a class="button is-primary is-rounded">Demo</a>
+                </div>
+                <!-- Feature 3 -->
+                <div class="column">
+                    <img src="img/coach.png" class="feat-icon">
+                    <h2 class="title is-4">Client Coaching Chatbot</h2>
+                    <p>Support your clients with Q Coach, an always-available AI chatbot coach that follows your instructions and theory of practice. Q Coach can perform follow-ups with clients and report back on what issues came up between sessions.</p>
+                    <a class="button is-primary is-rounded">Try A Demo Session</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials" style="background-color: #FAF0E6;">
+            <div class="container">
+                <div class="testimonial-carousel">
+                    <div>
+                        <p class="testimonial-text">"As a long-time therapist, I can say NuIQ has revolutionized my practice. I'm now able to see more clients daily thanks
+                        to the time I save on note-taking. Talk about a productivity boost—it certainly has increased my revenue!"</p>
+                        <p class="testimonial-author">- D Wendell, Clinical Psychologist</p>
+                    </div>
+                    <div>
+                        <p class="testimonial-text">"With NuIQ, the tedious process of note-taking has become streamlined and hassle-free. I can focus more on my patients,
+                        explore their challenges deeply, improving client service and actually boosting my earnings vastly. NuIQ is a
+                        game-changer."</p>
+                        <p class="testimonial-author">- A Voight, Psychotherapist</p>
+                    </div>
+                    <div>
+                        <p class="testimonial-text">"NuIQ is a dream come true for any therapist! Understanding and retaining intricate details about my patients have never
+                        been easier. My clients appreciate the increase in attention I can afford them — my practice and profits have never
+                        looked better."</p>
+                        <p class="testimonial-author">- R Koshy, Mental Health Counselor</p>
+                    </div>
+                    <div>
+                        <p class="testimonial-text">"I love how NuIQ structures and summarizes session notes. I can quickly glance through a client's prior sessions,
+                        ensuring nothing falls through the cracks. It's improved my efficiency, broadened my service capacity, and literally
+                        pays for itself."</p>
+                        <p class="testimonial-author">-M Bernal, Family Therapist</p>
+                    </div>
+                    <div>
+                        <p class="testimonial-text">"Providing quality mental health services just got easier with NuIQ. It's enhanced not only the accuracy and ease with
+                        which I take notes but also my understanding of my clients."</p>
+                        <p class="testimonial-author">- G Hopkins, Social Worker</p>
+                    </div>
+                    <div>
+                        <p class="testimonial-text">"Wow, I was not expecting the notes to be this good. This rivals any human therapist I work with."</p>
+                        <p class="testimonial-author">- F Foster, Therapist</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section" style="background-color: #2f4f4f;">
+            <div class="container has-text-centered">
+                <h2 class="title" style="color:#FAF0E6;">Get started with NuIQ today!</h2>
+                <p class="subtitle" style="color:#FAF0E6">Experience the ease of AI drafted therapeutic notes, save time and focus on helping people.
+                </p>
+                <a class="button is-primary is-large" href="/signup">Sign Up Now</a>
+            </div>
+        </section>
+
+
+        <!-- About Section -->
+        <section class="about">
+            <div class="columns">
+                <!-- Image -->
+                <div class="column">
+                    <img src="img/notes.png">
+                </div>
+                <!-- Text -->
+                <div class="column">
+                    <h2 class="title">Q-Notes</h2>
+                    <h3 class="subtitle">AI-Powered Therapeutic Notes In An Instant</h3>
+                    <p>At the heart of NuIQ's suite of offerings is Q-Notes, a powerful feature designed with the needs of therapists in mind.
+                    Q-Notes either listens in during therapy sessions or takes uploaded audio recordings to create impeccably structured,
+                    insurance-friendly notes.</p>
+                    <p>Leaning on cutting-edge AI capabilities, Q-Notes meticulously transcribes and categorizes each
+                    point discussed, saving therapists invaluable time and energy. It creates an organized, easy-to-read transcript,
+                    ensuring every detail is captured. </p>
+                    <p>Insurance claims become a smoother process with Q-Notes' detailed and professional
+                    formatting, letting therapists focus more on their clients and less on paperwork.</p>
+                    <a class="button is-primary is-rounded">Try An Instant Demo</a>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="columns">
+                <div class="column">
+                    <!-- <h2 class="title">The NuIQ Suite</h2> -->
+                    <h2 class="title">Q-Forms</h2>
+                    <h3 class="subtitle">Let AI Fill Your Repetitive Forms</h3>
+                    <p>Bid tedious form filling farewell with Q-Forms. Using intelligent information extraction, Q-Forms simplifies the process by taking in the required data and populating the forms for you.</p> 
+                    <p>Instead of spending precious consultation time on manual data entry, therapists can now deploy Q-Forms to capture essential information, increasing productivity
+                        and allowing more time for client engagement.</p>
+                    <p>Q-Forms isn't just a tool; it's your secret weapon for a seamless, more effcient practice.</p>
+                    <a class="button is-primary is-rounded">See How It Works</a>
+                </div>
+                <!-- Image -->
+                <div class="column">
+                    <img src="img/forms.png">
+                </div>
+                <!-- Text -->
+                
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="columns">
+                <!-- Image -->
+                <div class="column">
+                    <img src="img/coach.png">
+                </div>
+                <!-- Text -->
+                <div class="column">
+                    <h2 class="title">Q-Coach</h2>
+                    <h3 class="subtitle">AI-Powered Therapeutic Notes In An Instant</h3>
+                    <p>At the heart of NuIQ's suite of offerings is Q-Notes, a powerful feature designed with the needs of
+                        therapists in mind.
+                        Q-Notes either listens in during therapy sessions or takes uploaded audio recordings to create
+                        impeccably structured,
+                        insurance-friendly notes.</p>
+                    <p>Leaning on cutting-edge AI capabilities, Q-Notes meticulously transcribes and categorizes each
+                        point discussed, saving therapists invaluable time and energy. It creates an organized, easy-to-read
+                        transcript,
+                        ensuring every detail is captured. </p>
+                    <p>Insurance claims become a smoother process with Q-Notes' detailed and professional
+                        formatting, letting therapists focus more on their clients and less on paperwork.</p>
+                        <!-- Demo Button -->
+                    <a class="button is-primary is-rounded">Try A Demo Session</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section" style="background-color: #FAF0E6;">
+            <div class="container has-text-centered">
+                <h2 class="title">Get started with NuIQ today!</h2>
+                <p class="subtitle">Experience the ease of AI drafted therapeutic notes, save time and focus on helping people.
+                </p>
+                <a class="button is-primary is-large" href="/signup">Sign Up Now</a>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <form>
+                <div class="field">
+                    <label class="label">Name</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Your name">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                        <input class="input" type="email" placeholder="Your email">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Message</label>
+                    <div class="control">
+                        <textarea class="textarea" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <button class="button is-primary">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            
+            <!-- Three columns -->
+            <div class="columns">
+                <div class="column">
+                    <p class="has-text-centered">
+                        <strong>Location</strong>
+                        <br />
+                        2435 W 450 S, Suite 103
+                        <br />
+                        Pleasant Grove, UT 84062
+                    </p>
+                </div>
+                <div class="column">
+                    <p class="has-text-centered">
+                        <strong>Contact</strong>
+                        <br />
+                        <a href="tel:123-456-7890">801-228-0287</a>
+                        <br />
+                        <a href="mailto:contact@nuiq.com" class="has-text-primary">email</a>
+                    </p>
+                </div>
+                <div class="column">
+                    <p class="has-text-centered">
+                        <strong>Social</strong>
+                        <br />
+                        <a href="#" class="has-text-primary">Facebook</a>
+                        <br />
+                        <a href="#" class="has-text-primary">Twitter</a>
+                    </p>
+                </div>       
+        </div>
+        <p>
+            Copyright &copy; 2023 GAMP AI. All rights reserved.
+        </p>
+    </footer>
+    
+
+    <!-- Adding jQuery and Slick JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    <script>
+        $(document).ready(function () {
+            $('.testimonial-carousel').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 4500,
+            });
+        });
+    </script>
+
+</body>
+</html>
