@@ -4,9 +4,9 @@ Picture this: you're a busy mental health professional with a full caseload. At 
 
 Enter the trusted SOAP notes—a concise, organized way to document your treatment process. SOAP stands for Subjective, Objective, Assessment, and Plan. An effective SOAP note occupies the sweet spot between being thorough and time-efficient. But how do we write good SOAP notes, especially in a mental health setting? That's exactly what we're looking at today.
 
-**The Basics of SOAP**
+## The Basics of SOAP
 
-**1. Subjective:**
+### 1. Subjective:
 
 This is your client's perspective of their mental, emotional, and physical state. This includes their thoughts, feelings, fears, symptoms, and concerns – basically, anything the client shares with you. So, how does one optimize the 'subjective' portion?
 
@@ -14,7 +14,7 @@ _Active Listening_: It all boils down to active listening. Jot down key points a
 
 _Standardization_: Aim for standardization. Using standard/semi-standardized screening tools and measures can provide a more structured and comprehensive picture of the client's status.
 
-**2. Objective:**
+### 2. Objective:
 
 The objective section is your observation. Recall all those courses on human behavior, body language, and verbal cues? Now's the time to put them into use. Pay attention to non-verbal cues like body posture, eye contact, and tone of voice. Watch out for changes in appearance, mood, and speech patterns too.
 
@@ -22,7 +22,7 @@ _Technical Jargon_: Try to avoid excessive professional jargon. Remember, your n
 
 _Descriptive, Not Interpretive_: State your observations without interpreting them. For example, instead of writing "John seemed anxious," write "John's hands were trembling, his speech was rapid, and he avoided eye contact."
 
-**3. Assessment:**
+## 3. Assessment:
 
 This is your professional interpretation of the subjective and objective components – the joining of the factual dots to form a clinical picture.
 
@@ -30,7 +30,7 @@ _Diagnosis_: Where appropriate, include the client's diagnosis based on the DSM-
 
 _Progress_: Comment on progress towards treatment goals, fluctuations in symptoms or any emerging issues.
 
-**4. Plan:**
+## 4. Plan:
 
 This outlines the next steps in the client's care, including therapy decisions, tests, consultations, interventions, client tasks, or modifications to the treatment plan.
 
@@ -38,7 +38,7 @@ _Clear and Precise_: Be as clear and precise as possible. If you plan on incorpo
 
 _Client's Input_: Wherever possible, include your client's input in the planning stage as it encourages their participation and autonomy in recovery.
 
-**Characteristics of Good SOAP Notes**
+## Characteristics of Good SOAP Notes
 
 Writing good SOAP notes takes practice, but there are a few distinguishing features that elevate them from good to great:
 
