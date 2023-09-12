@@ -35,6 +35,24 @@ h3 {
   margin: 20px 0;
 }
 
+h4 {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: teal;
+  margin: 20px 0;
+}
+
+h5 {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 1rem !important;
+  color: teal !important;
+  margin: 20px 0;
+}
+
+.title {}
+
 hr {
   border: 1px solid #FAF0E6;
   width: 20%;
@@ -94,6 +112,24 @@ p {
 .slick-prev:before,
 .slick-next:before {
   color: #008080;
+}
+
+.logo-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.logo-cloud li {
+  margin: 20px;
+}
+
+.partner-logo {
+  width: 128px;
+  /* Or the size you want for your logos */
+  height: auto;
 }
 
 /* Add more horizontal spacing within sections */
