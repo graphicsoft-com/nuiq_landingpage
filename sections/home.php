@@ -1,68 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>NuIQ - Instant Therapeutic Notes, Forms and AI Client Coaching.</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400i|Open+Sans&display=swap">
-    
-    <!-- Adding Slick CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body style="background-color:#FAF0E6">
-    
-        <!-- Navigation bar -->
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-            <!-- Logo and burger menu -->
-            <div class="navbar-brand">
-                <a class="navbar-item" href="#">
-                    <img src="your-logo.png">
-                </a>
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
-            </div>
-
-            <!-- Navigation links -->
-            <div id="navbarBasicExample" class="navbar-menu">
-                <div class="navbar-start">
-                    <a class="navbar-item">
-                        Home
-                    </a>
-                    <a class="navbar-item">
-                        Home
-                    </a>
-                    <!-- More navigation items -->
-                </div>
-            </div>
-        </nav>
-
-        <!-- Hero Section -->
-        <section class="hero"
-            style="background-image: url('img/nuiq_banner2.png'); background-size: 100% auto; background-repeat: no-repeat; background-position: center; min-height:500px">
-            <div class="hero-body">
-                <div class="container has-text-centered">
-                    <br /><br /><hr />
-                    <h1 class="title">
-                        Instant Therapeutic Notes and Paperwork Powered by AI
-                    </h1>
-                    <hr />
-                    <h2 class="subtitle">
-                        Less paperwork means more time for your clients.
-                    </h2>
-                    <hr />
-                </div>
-            </div>
-        </section>
-    <div class="container">
-        <!-- Features Section -->
+<!-- Features Section -->
         <section class="features" style="background-color: #FAF0E6;">
             <div class="columns">
                 <!-- Feature 1 -->
@@ -127,6 +63,39 @@
                         <p class="testimonial-author">- F Foster, Therapist</p>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Works With -->
+        <section class="section" style="background-color:white;">
+            <div class="container">
+                <h2 class="title has-text-centered">Works With:</h2>
+                <ul class="logo-cloud">
+                    <li><img src="img/logos/AdvancedMD.png" alt="AdvancedMD Logo" class="partner-logo"></li>
+                    <li><img src="img/logos/athena.png" alt="Athenahealth Logo" class="partner-logo"></li>
+                    <li><img src="img/logos/bestnotes.png" alt="BestNotes Logo" class="partner-logo"></li>
+                    <li><img src="img/logos/CareLogic.png" alt="CareLogic Logo" class="partner-logo"></li>
+                    <li><img src="img/logos/centralreach.png" alt="CentralReach Logo" class="partner-logo"></li>
+                    <li><img src="img/logos/cerner.png" alt="Cerner Logo" class="partner-logo"></li>
+                    <li><img src="img/logos/drchrono.png" alt="DrChrono Logo" class="partner-logo"></li>
+                    <li><img src="img/logos/greenway.png" alt="Greenway Logo" class="partner-logo"></li>
+                    <li><img src="img/logos/ICANotes.webp" alt="ICANotes Logo" class="partner-logo"></li>
+                    <li><img src="img/logos/kareo.png" alt="Kareo Logo" class="partner-logo"></li>
+                    <li><img src="img/logos/kasa.png" alt="KASA Logo" class="partner-logo"></li>
+                    <li><img src="img/logos/kipu.png" alt="Kipu Logo" class="partner-logo"></li>
+                    <li><img src="img/logos/meditab.png" alt="Meditab Logo" class="partner-logo"></li>
+                    <li><img src="img/logos/PracticeFusion.jpg" alt="Practice Fusion Logo" class="partner-logo"></li>
+                    <li><img src="img/logos/prognCIS.webp" alt="PrognoCIS Logo" class="partner-logo"></li>
+                    <li><img src="img/logos/simplepractice.png" alt="SimplePractice Logo" class="partner-logo"></li>
+                    <li><img src="img/logos/TheraNest.png" alt="TheraNest Logo" class="partner-logo"></li>
+                    <li><img src="img/logos/TherapyNotes.jpg" alt="TherapyNotes Logo" class="partner-logo"></li>
+                    <li><img src="img/logos/valent.png" alt="Valant Logo" class="partner-logo"></li>
+                </ul>
+                <!-- center div -->
+                <div class="columns">
+                    <div class="column">
+                        <h5 class="title has-text-centered">Don't see your EHR listed? You can copy and paste from NuIQ to <i>any</i> software of your choice.</h5>
+                    </div>
             </div>
         </section>
 
@@ -214,6 +183,8 @@
                 </div>
             </div>
         </section>
+        </div>
+
 
         <!-- CTA Section -->
         <section class="section" style="background-color: #FAF0E6;">
@@ -228,6 +199,7 @@
 
         <!-- Contact Section -->
         <section class="contact">
+            <h2 class="title has-text-centered">Got Questions? Get in touch!</h2>
             <form>
                 <div class="field">
                     <label class="label">Name</label>
@@ -254,63 +226,3 @@
                 </div>
             </form>
         </section>
-    </div>
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="content has-text-centered">
-            
-            <!-- Three columns -->
-            <div class="columns">
-                <div class="column">
-                    <p class="has-text-centered">
-                        <strong>Location</strong>
-                        <br />
-                        2435 W 450 S, Suite 103
-                        <br />
-                        Pleasant Grove, UT 84062
-                    </p>
-                </div>
-                <div class="column">
-                    <p class="has-text-centered">
-                        <strong>Contact</strong>
-                        <br />
-                        <a href="tel:123-456-7890">801-228-0287</a>
-                        <br />
-                        <a href="mailto:contact@nuiq.com" class="has-text-primary">email</a>
-                    </p>
-                </div>
-                <div class="column">
-                    <p class="has-text-centered">
-                        <strong>Social</strong>
-                        <br />
-                        <a href="#" class="has-text-primary">Facebook</a>
-                        <br />
-                        <a href="#" class="has-text-primary">Twitter</a>
-                    </p>
-                </div>       
-        </div>
-        <p>
-            Copyright &copy; 2023 GAMP AI. All rights reserved. | <a href="privacy"
-                class="has-text-primary">Privacy Policy</a> | <a href="terms" class="has-text-primary">Terms of Service</a>
-        </p>
-    </footer>
-    
-
-    <!-- Adding jQuery and Slick JS -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    
-    <script>
-        $(document).ready(function () {
-            $('.testimonial-carousel').slick({
-                infinite: true,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 4500,
-            });
-        });
-    </script>
-
-</body>
-</html>
