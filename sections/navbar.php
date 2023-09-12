@@ -2,7 +2,7 @@
         <nav class="navbar" role="navigation" aria-label="main navigation">
             <!-- Logo and burger menu -->
             <div class="navbar-brand">
-                <a class="navbar-item" href="#">
+                <a class="navbar-item" href="/">
                     <img src="img/notes.png">
                     <h3>NuIQ</h3>
                 </a>
@@ -16,11 +16,11 @@
             <!-- Navigation links -->
             <div id="navbarBasicExample" class="navbar-menu">
                 <div class="navbar-start">
-                    <a class="navbar-item">Home</a>
-                    <a class="navbar-item">About</a>
-                    <a class="navbar-item">Contact</a>
-                    <a class="navbar-item">Blog</a>
-                    <a class="navbar-item">Pricing</a>
+                    <a href="/page.php?page=about" class="navbar-item">About</a>
+                    <a href="/#products" class="navbar-item">Suite</a>
+                    <a href="/#contact" class="navbar-item">Contact</a>
+                    <a href = "/blog.php" class="navbar-item">Blog</a>
+                    <a href = "/page.php?page=pricing" class="navbar-item">Pricing</a>
                     <!-- More navigation items -->
                 </div>
                 <div class="navbar-end">

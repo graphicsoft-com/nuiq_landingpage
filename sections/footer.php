@@ -33,7 +33,7 @@
                 </div>       
         </div>
         <p>
-            Copyright &copy; 2023 GAMP AI. All rights reserved. | <a href="privacy"
-                class="has-text-primary">Privacy Policy</a> | <a href="terms" class="has-text-primary">Terms of Service</a>
+            Copyright &copy; 2023 GAMP AI. All rights reserved. | <a href="/page.php?page=privacy"
+                class="has-text-primary">Privacy Policy</a> | <a href="/page.php?page=terms" class="has-text-primary">Terms of Service</a>
         </p>
     </footer>

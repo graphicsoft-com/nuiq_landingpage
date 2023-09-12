@@ -53,6 +53,52 @@ h5 {
 
 .title {}
 
+/* Style the table to be 80% width and centered */
+table {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+/* Style the table header with a background color */
+th {
+  background-color: #f08080;
+  color: #2F4F4F;
+  /* dark slate gray for text */
+  padding: 10px;
+}
+
+/* th:nth-child(3) {
+  background-color: #add8e6;
+} */
+
+/* Style the table cells */
+td {
+  padding: 10px;
+}
+
+/* Style every even row with one color */
+tr:nth-child(even) {
+  background-color: #FAF0E6;
+  /* off-white */
+}
+
+/* Style every odd row with another color */
+tr:nth-child(odd) {
+  background-color: white;
+  /* light coral */
+}
+
+/* Highlight the third column */
+td:nth-child(3) {
+  background-color: #add8e6;
+  color: #2f4f4f;
+  /* white text, or another color that contrasts well with the background */
+  /* border: 1px solid #2F4F4F; */
+  /* dark slate gray border */
+}
+
 hr {
   border: 1px solid #FAF0E6;
   width: 20%;
@@ -138,6 +184,14 @@ p {
   /* adjust as needed */
   margin-right: 20px;
   /* adjust as needed */
+}
+
+.news h1 {
+  font-size: 1.2rem;
+}
+
+.news p {
+  font-size: 1rem;
 }
 
 /* Add more spacing in the footer */
