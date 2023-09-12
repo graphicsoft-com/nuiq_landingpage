@@ -1,5 +1,7 @@
 # Unleashing Productivity: How Q-Notes Turns Hours into Minutes for Therapists
 
+![AI Empowers Professionals](/articles/img/abstract2.png)
+
 For many therapists, a large portion of their valuable time is spent scribbling notes or typing up summaries from client sessions. Although these notes are an essential part of therapy, maintaining them is often a tedious and time-consuming task. But what if there's a way to devote less time to your paperwork and more time to your clients? Enter NuIQ’s Q-Notes, the AI-powered tool that revamps how therapists create session notes.
 
 #### Reducing Documentation Time
@@ -13,6 +15,8 @@ Regardless of your preferred note-taking structure, Q-Notes has got you covered.
 #### Accuracy Meets Automation
 
 Remember the irritation brought by those tiny errors that slip into manual note-taking? With Q-Notes, those mistakes become a thing of the past. Step into a future where AI precision meets the comfort of automation. Rest assured that every detail from your therapy sessions is documented accurately with Q-Notes. The AI not only parses language but also understands context, facilitating precise document creation with minimal human intervention.
+
+![AI Empowers Professionals](/articles/img/abstract3.png)
 
 #### Harnessing AI Power
 

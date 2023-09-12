@@ -1,5 +1,7 @@
 # NuIQ's Q-Coach: Your 24/7 Therapy Assistant!
 
+![NuIQ Coach is a 24/7 therapist's assistant](/articles/img/coach1.png)
+
 Between the efforts to help clients navigate their lives and the demands of managing a practice, being a mental health professional is anything if not challenging. And being available all the time for your clients? Practically impossible. Until now, that is. Meet NuIQ's Q-Coach - a 24/7 AI chatbot ready to revolutionize your therapy sessions and optimization of client management.
 
 Designed to offer out-of-hours assistance to your clients and dutifully report back to you, Q-Coach bridges the gap between sessions and supports clients in ways not possible before. A tool defined by your instructions, Q-Coach keeps up with your clients' backgrounds, any indicated follow-ups and even aligns with your own theory of therapy practice!
@@ -19,6 +21,8 @@ With Q-Coach's regular updates about your client's progress, you'll start each s
 ## **4. Optimizing Client Engagement**
 
 By providing continuous interaction, Q-Coach fosters client engagement and creates a more comprehensive flow of communication.
+
+![Q Coach is an AI powered chatbot Coach](/articles/img/bubbles.png)
 
 ## **5. Bridging Inter-session Gaps**
 

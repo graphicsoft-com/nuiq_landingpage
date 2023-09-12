@@ -24,8 +24,8 @@
                     <!-- More navigation items -->
                 </div>
                 <div class="navbar-end">
-                    <a class="navbar-item">Login</a>
-                    <a class="navbar-item">
+                    <a href="/login" class="navbar-item">Login</a>
+                    <a href="/signup" class="navbar-item">
                         <button class="button">Sign Up</button>
                     </a>
                 </div>

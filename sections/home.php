@@ -6,7 +6,7 @@
             <img src="img/notes.png" class="feat-icon">
             <h2 class="title is-4">Instant Session Notes</h2>
             <p>Draft your therapeutic session notes in an instant with Q Notes. Q Notes listens (or takes an audio recording) and produces complete high-quality notes in most common formats: SOAP, DAP, PAIP, *IRP, and more.</p>
-            <a class="button is-primary is-rounded">Try It Out</a>
+            <a href="/notes" class="button is-primary is-rounded">Try It Out</a>
         </div>
         <!-- Feature 2 -->
         <div class="column">
@@ -14,14 +14,14 @@
             <h2 class="title is-4">Forms On AutoPilot</h2>
             <p>Tired of filling out the same form over and over? Q Forms uses AI to make filling repetive tedious forms a breeze. Never fill another form by hand.</p>
             <!-- Demo Button -->
-            <a class="button is-primary is-rounded">Demo</a>
+            <a href="/forms" class="button is-primary is-rounded">Demo</a>
         </div>
         <!-- Feature 3 -->
         <div class="column">
             <img src="img/coach.png" class="feat-icon">
             <h2 class="title is-4">Client Coaching Chatbot</h2>
             <p>Support your clients with Q Coach, an always-available AI chatbot coach that follows your instructions and theory of practice. Q Coach can perform follow-ups with clients and report back on what issues came up between sessions.</p>
-            <a class="button is-primary is-rounded">Try A Demo Session</a>
+            <a href="/coach" class="button is-primary is-rounded">Try A Demo Session</a>
         </div>
     </div>
 </section>
@@ -259,8 +259,8 @@
                 $articleName = basename($articles[$i]);
 
                 // Extract the first paragraph
-                $paragraphs = explode('</p>', $articleHtml, 2);
-                $intro = $paragraphs[0] . '</p>';
+                $paragraphs = explode('</p>', $articleHtml, 3);
+                $intro = $paragraphs[0] . '</p>' . $paragraphs[1] . '</p>';
 
                 echo '<div class="column">';
                 echo $intro;

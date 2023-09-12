@@ -186,6 +186,19 @@ p {
   /* adjust as needed */
 }
 
+.article img {
+  width: 66%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* .article p img {
+  width: 100%;
+  display: block;
+  float: right;
+  margin-left:20px;
+} */
+
 .news h1 {
   font-size: 1.2rem;
 }

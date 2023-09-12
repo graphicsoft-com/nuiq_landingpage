@@ -1,5 +1,7 @@
 # Perfecting the Art of SOAP Notes for Mental Health Professionals
 
+![Perfecting SOAP Notes](/articles/img/forms1.png)
+
 Picture this: you're a busy mental health professional with a full caseload. At the end of a long day, information is swirling in your mind – your clients' life stories, clinical impressions, your interventions, and treatment plans. How do you consolidate this information, track progress, and perfect your therapy strategy?
 
 Enter the trusted SOAP notes—a concise, organized way to document your treatment process. SOAP stands for Subjective, Objective, Assessment, and Plan. An effective SOAP note occupies the sweet spot between being thorough and time-efficient. But how do we write good SOAP notes, especially in a mental health setting? That's exactly what we're looking at today.

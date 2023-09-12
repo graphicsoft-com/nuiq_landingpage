@@ -16,7 +16,7 @@
     </section>
 
     <div class="container">
-        <div class="section">
+        <div class="section article">
             <?php
             require 'vendor/autoload.php';
 
