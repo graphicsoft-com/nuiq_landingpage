@@ -1,5 +1,7 @@
 # Diversity in Documentation: SOAP Notes and Their Value Across Mental Health Professions
 
+![SOAP Notes Are Used Across Mental Health Professions](/articles/img/form2.png)
+
 In the mentally charged, challenging world of mental health, the power of effective notes cannot be overstated. They are the backdrop for effective treatment, patient care continuity, and adherence to regulatory requirements. Amongst various note-taking formats exists SOAP (Subjective, Objective, Assessment, and Plan), a globally recognized standard. Despite varying specialties in the mental health field, the uniting thread we see is the ubiquitous use of SOAP notes. Let's explore how different types of mental health professionals leverage NuIQ's Q-Notes for SOAP style documentation.
 
 ## Psychiatrists

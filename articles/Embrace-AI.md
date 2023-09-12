@@ -1,5 +1,7 @@
 # Embracing AI Tools: Powering Therapists, Not Replacing Them
 
+![AI Tools Empower Therapists](/articles/img/abstract1.png)
+
 In a rapidly evolving world marked by technology's unwavering advancements, therapists are gradually turning a friendly nod towards Artificial Intelligence (AI) and its transformative potential. Contrary to popular misconceptions, the rise of AI tools does not signal the end for human therapists but supports their practices in unparalleled ways. Here, we would delve into how NuIQ’s specially designed AI-powered tools meet this objective, empowering therapists to do what they do best - heal, guide, and inspire.
 
 ### Human-Machine Synergy

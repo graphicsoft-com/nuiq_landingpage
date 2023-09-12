@@ -1,5 +1,7 @@
 # Why the Future of the Wellness Industry Lies in Services Like Q Coach
 
+![Q Coach is an AI powered chatbot Coach](/articles/img/bubbles.png)
+
 The wellness industry is undergoing an exciting transformation; at its helm are innovations brought to life by game-changing technologies. Eradicating the constraints of traditional appointment schedules and geographical restrictions, AI-infused services such as NuIQ's Q Coach are redefining what it means to provide and receive wellness services globally. Let's understand why the future of the wellness industry hinges on such noteworthy advancements.
 
 ### The Emergence and Evolution of AI in Wellness
@@ -15,6 +17,8 @@ Physical clinics and practitioners have operational limits. A key enabler of acc
 ### Personalized Client Support
 
 Each human being is unique – every client brings their own set of wellness goals, concerns, and potential obstacles to the therapeutic relationship. With machine learning capabilities and AI algorithms at work, applications like Q Coach can tailor responses and support tactics to match the specific needs of the client. They are designed not just to identify patterns but also to adapt and personalize over time.
+
+![Q Coach is an AI powered chatbot Coach](/articles/img/bubbles2.png)
 
 ### Data-Informed Decision Making
 

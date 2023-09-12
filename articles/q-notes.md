@@ -1,5 +1,7 @@
 # "Revolutionize Your Therapy Sessions: 7 Reasons NuIQ's Q-Notes is a Game-Changer!"
 
+![Q-Notes is a Game-Changer](/articles/img/forms3.png)
+
 Time is a precious commodity, especially for mental health professionals. Beyond the session hours, there's a significant amount of work that goes into creating comprehensive and streamlined SOAP notes. It doesn't stop there! They must adhere to specific formats to meet stringent insurance criteria. It's tiresome, monotonous, and time-consuming, right? But what if there was a better way?
 
 Enter NuIQ's Q-Notes, the AI-powered assistant designed to free you from these administrative burdens. From listening to live sessions to analysing uploaded audio files, Q-Notes compiles detailed draft SOAP notes in line with the precise requirements needed for thorough record-keeping and medical insurance claims.

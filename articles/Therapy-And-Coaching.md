@@ -1,6 +1,6 @@
 # Coaching and Therapy: The Perfect Combination for Personal Growth
 
-## I. Introduction
+![Therapy and Coaching and Personal Growth](/articles/img/talk3.png)
 
 Coaching and therapy, though distinct disciplines, can mesh in a symbiotic relationship that leads to significant personal growth for clients. At their core, coaching and therapy are alike in that they are fundamentally about change. Where therapy tends to focus on healing, decreasing distress, and coping with past or current stressors, coaching concentrates on furthering personal, professional, or academic success, and improving life satisfaction. The combination of these two approaches can provide an environment that fosters self-discovery, skill building, grooming resilience, and nurturing holistic well-being.
 
