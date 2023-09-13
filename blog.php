@@ -15,7 +15,7 @@
     </section>
 
     <div class="container">
-        <div class="section">
+        <div class="section article">
             <?php
             require 'vendor/autoload.php';
 
@@ -36,9 +36,9 @@
                 $articleHtml = $Parsedown->text($articleContent);
 
                 // Extract the first two paragraphs
-                $paragraphs = explode('</p>', $articleHtml, 2);
+                $paragraphs = explode('</p>', $articleHtml, 3);
 
-                $intro = $paragraphs[0] . '</p>';
+                $intro = $paragraphs[0] . '</p>' . $paragraphs[1] . '</p>';
 
                 
                 echo $intro;
