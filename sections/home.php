@@ -105,7 +105,7 @@
         <h2 class="title" style="color:#FAF0E6;">Get started with NuIQ today!</h2>
         <p class="subtitle" style="color:#FAF0E6">Experience the ease of AI drafted therapeutic notes, save time and focus on helping people.
         </p>
-        <a class="button is-primary is-large" href="/signup">Sign Up Now</a>
+        <a href="/signup" class="button is-primary is-large" href="/signup">Sign Up Now</a>
     </div>
 </section>
 
@@ -120,7 +120,7 @@
     <div class="columns">
         <!-- Image -->
         <div class="column">
-            <img src="img/notes.png">
+            <img src="/img/notes.png">
         </div>
         <!-- Text -->
         <div class="column">
@@ -134,7 +134,7 @@
             ensuring every detail is captured. </p>
             <p>Insurance claims become a smoother process with Q-Notes' detailed and professional
             formatting, letting therapists focus more on their clients and less on paperwork.</p>
-            <a class="button is-primary is-rounded">Try An Instant Demo</a>
+            <a href="/notes" class="button is-primary is-rounded">Try An Instant Demo</a>
 
 
         </div>
@@ -151,11 +151,11 @@
             <p>Instead of spending precious consultation time on manual data entry, therapists can now deploy Q-Forms to capture essential information, increasing productivity
                 and allowing more time for client engagement.</p>
             <p>Q-Forms isn't just a tool; it's your secret weapon for a seamless, more effcient practice.</p>
-            <a class="button is-primary is-rounded">See How It Works</a>
+            <a href="/forms" class="button is-primary is-rounded">See How It Works</a>
         </div>
         <!-- Image -->
         <div class="column">
-            <img src="img/forms.png">
+            <img src="/img/forms.png">
         </div>
         <!-- Text -->
         
@@ -166,7 +166,7 @@
     <div class="columns">
         <!-- Image -->
         <div class="column">
-            <img src="img/coach.png">
+            <img src="/img/coach.png">
         </div>
         <!-- Text -->
         <div class="column">
@@ -184,7 +184,7 @@
             <p>Insurance claims become a smoother process with Q-Notes' detailed and professional
                 formatting, letting therapists focus more on their clients and less on paperwork.</p>
                 <!-- Demo Button -->
-            <a class="button is-primary is-rounded">Try A Demo Session</a>
+            <a href="/coach" class="button is-primary is-rounded">Try A Demo Session</a>
         </div>
     </div>
 </section>
@@ -197,7 +197,7 @@
         <h2 class="title">Get started with NuIQ today!</h2>
         <p class="subtitle">Experience the ease of AI drafted therapeutic notes, save time and focus on helping people.
         </p>
-        <a class="button is-primary is-large" href="/signup">Sign Up Now</a>
+        <a href = "/signup" class="button is-primary is-large" href="/signup">Sign Up Now</a>
     </div>
 </section>
 
